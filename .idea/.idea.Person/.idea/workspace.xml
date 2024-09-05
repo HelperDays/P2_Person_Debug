@@ -8,9 +8,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2cb8fc7a-ab95-45a1-a178-34a6ea8c7a59" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Debug from command palette.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Debug from test explorer.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Person/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Person/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Person/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Person/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Library/Library.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Library/Library.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Library/Person.cs" beforeDir="false" afterPath="$PROJECT_DIR$/src/Library/Person.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Library.Tests/PersonTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Library.Tests/PersonTests.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,13 +33,16 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/ucudal/PII_Person_Debug.git&quot;,
-    &quot;accountId&quot;: &quot;b6b1b30f-c4ea-431d-a544-913a7256922b&quot;
+    &quot;url&quot;: &quot;https://github.com/HelperDays/P2_Person_Debug&quot;,
+    &quot;accountId&quot;: &quot;f4bd8952-7378-4a9a-bc9f-aed8d190f755&quot;
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/46a322d26154b982566e1817203e5452c91223f93b0e392d9c5b4806696fdc1/Assert.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file:///usr/local/share/dotnet/sdk/8.0.303/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Symbols/src/dotnet/runtime/08338fcaa5c9b9a8190abb99222fed12aaba956c/src/libraries/System.Private.CoreLib/src/System/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/46a322d26154b982566e1817203e5452c91223f93b0e392d9c5b4806696fdc1/Assert.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
@@ -49,10 +54,27 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    ".NET Project.Program.executor": "Run",
+    "84c9ba1f-d69b-4f84-910f-3811ebbc2076.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "a3ffe8d8-a1a5-43aa-a6e6-f71d18e4de90.executor": "Debug",
     "d740522c-0eaa-4824-9bc5-7fbed9a06672.executor": "Debug",
     "git-widget-placeholder": "main",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\aletu\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
+      "C:\\Users\\aletu\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
+      "C:\\Users\\aletu\\AppData\\Local\\Symbols\\src"
+    ]
   }
 }]]></component>
   <component name="RunManager" selected=".NET Project.Program">
@@ -87,11 +109,16 @@
       <workItem from="1724850432396" duration="515000" />
       <workItem from="1724850951573" duration="321000" />
       <workItem from="1724851299361" duration="2365000" />
+      <workItem from="1725577787996" duration="892000" />
+      <workItem from="1725578811349" duration="1010000" />
     </task>
     <servers />
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
-    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -102,10 +129,10 @@
           <line>91</line>
           <properties documentPath="$PROJECT_DIR$/tests/Library.Tests/PersonTests.cs" containingFunctionPresentation="Method 'TestAge'">
             <startOffsets>
-              <option value="2821" />
+              <option value="2822" />
             </startOffsets>
             <endOffsets>
-              <option value="2854" />
+              <option value="2855" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />

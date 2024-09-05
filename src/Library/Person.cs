@@ -23,7 +23,7 @@ namespace Ucu.Poo.Persons
             this.FamilyName = familyName;
         }
 
-        /// <summary>
+    /// <summary>
         /// Obtiene o establece el nombre de la persona. El texto no tiene espacios al comienzo ni al final -los espacios son removidos al asignar el texto-.
         /// </summary>
         /// <value>El nombre de la persona.</value>
@@ -42,7 +42,7 @@ namespace Ucu.Poo.Persons
         {
             get
             {
-                return $"{this.Name}{this.FamilyName}";
+                return $"{this.Name} {this.FamilyName}"; //se agrego un espacio para cumplir con lo esperado
             }
         }
 
@@ -66,7 +66,7 @@ namespace Ucu.Poo.Persons
                     age--;
                 }
 
-                return age;
+                return -age; // la edad daba en negativo, entonces se cambio al opuesto
             }
         }
 
@@ -119,7 +119,7 @@ namespace Ucu.Poo.Persons
                 return false;
             }
             // Si el otro objeto no es del mismo tipo que este objeto no pueden ser iguales; retornar False
-            else if  (!this.GetType().Equals(obj.GetType()))
+            else if (!this.GetType().Equals(obj.GetType()))
             {
                 return false;
             }

@@ -51,7 +51,7 @@ namespace Ucu.Poo.Persons.Tests
 
             Person person = new Person(name, familyName);
 
-            Assert.AreEqual(fullName, person.FullName);
+            Assert.AreEqual(fullName,  person.FullName);
         }
 
         /// <summary>
